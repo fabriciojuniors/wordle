@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #191A19;
+    background-color: #191A19 !important;
 }
 .content{
     margin: auto;
