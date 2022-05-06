@@ -12,6 +12,32 @@ body{
     width: 30%;
 }
 
+@media only screen and (max-width: 600px) {
+    .content{
+        margin: auto;
+        width: auto;        
+    }
+
+    .title, .lines{
+        display: block;
+        width: 100%;
+    }
+    .lines{
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .txt-input {
+        width: 20px;
+        height: 20px;
+    }
+    span {
+        width: 20px;
+        height: 20px;
+    }
+  }
+
 .title{
     display: flex;
     justify-content: space-between;
@@ -67,30 +93,4 @@ span {
     border-bottom: 5px solid #9f853d;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-}
-
-.play{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.play input{
-    width: 75%;
-    height: 25px;
-    background-color: #343534;
-    outline: none;
-    border: 0px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.play button {
-    width: 20%;
-    background-color: #1E5128;
-    border: none;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
 }
