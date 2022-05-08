@@ -6,45 +6,14 @@
 body{
     background-color: #191A19 !important;
 }
-.content{
-    margin: auto;
-    margin-top: 2%;
-    width: 30%;
-}
 
-@media only screen and (max-width: 600px) {
-    .content{
-        margin: auto;
-        width: auto;        
-    }
-
-    .title, .lines{
-        display: block;
-        width: 100%;
-    }
-    .lines{
-        margin: 0;
-        width: 100%;
-        display: block;
-    }
-
-    .txt-input {
-        width: 20px;
-        height: 20px;
-    }
-    span {
-        width: 20px;
-        height: 20px;
-    }
-  }
-
-.title{
-    display: flex;
-    justify-content: space-between;
+.container{
+    margin-top: 20px;
+    width: 30% !important;
 }
 
 .lines{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .line{
@@ -63,6 +32,11 @@ span {
     justify-content: center;
     align-items: center;
     font-size: 42px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
 }
 
 .txt-input {
@@ -94,3 +68,42 @@ span {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100% !important;
+    }
+
+    .txt-input, span{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+#dvSucesso, #dvFalha{
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.alert-success{
+    background-color: #4E9F3D !important;
+    color: white;
+}
+
+.alert-danger{
+    background-color: #A13333 !important;
+    color: white;
+}
+
+.alert{
+    border: none !important;
+}
+
