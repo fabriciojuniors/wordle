@@ -185,7 +185,7 @@ function onFalha(){
     dvFalha.innerHTML = "";
 
     let texto = document.createElement("p");
-    texto.innerText = "Oops, não foi dessa vez.";
+    texto.innerText = "Oops, não foi dessa vez. A palavra era:" + palavra.join("");
     texto.style.marginTop = "10px";
 
     let icone = document.createElement("i");
